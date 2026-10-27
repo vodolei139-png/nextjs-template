@@ -85,4 +85,15 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  ::selection {
+    background-color: #38a8cf;
+    color: #030d17;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
 }
