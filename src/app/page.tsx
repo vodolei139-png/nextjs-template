@@ -1,6 +1,6 @@
 import { Gallery } from "@/components/surf/gallery";
 import { Hero } from "@/components/surf/hero";
-import { Footer } from "@/components/surf/footer";
+import { SiteFooter } from "@/components/surf/site-footer";
 import { SiteUser } from "@/components/view/site-user";
 import { SiteHeader } from "@/components/view/site-header";
 
