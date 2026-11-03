@@ -9,7 +9,6 @@ export default function IndexPage() {
       <main>
         <Hero />
         <Gallery />
-        <Outro />
       </main>
       <SiteFooter />
     </div>
