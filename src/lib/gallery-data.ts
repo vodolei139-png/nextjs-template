@@ -10,7 +10,7 @@ export type SurfLocation = {
   description: string;
   image: string;
   imageAlt: string;
-  orientation: "wide" | "portrait";
+  orientation: "wide";
 };
 
 export const surfLocations: SurfLocation[] = [
@@ -44,7 +44,7 @@ export const surfLocations: SurfLocation[] = [
     image: "/surf/uluwatu.webp",
     imageAlt:
       "Подводный кадр от первого лица: утка-дайв под волной в прозрачной воде Улувату с лучами солнца",
-    orientation: "portrait",
+    orientation: "wide",
   },
   {
     id: "jbay",
@@ -60,7 +60,7 @@ export const surfLocations: SurfLocation[] = [
     image: "/surf/jbay.webp",
     imageAlt:
       "Кадр от первого лица: сёрфер режет стену идеальной правой волны в Джеффрис-Бей на рассвете",
-    orientation: "portrait",
+    orientation: "wide",
   },
   {
     id: "pipeline",
@@ -92,7 +92,7 @@ export const surfLocations: SurfLocation[] = [
     image: "/surf/malibu.webp",
     imageAlt:
       "Кадр от первого лица: сёрфер гребёт обратно по стеклянной золотой воде Малибу на закате",
-    orientation: "portrait",
+    orientation: "wide",
   },
   {
     id: "teahupoo",
